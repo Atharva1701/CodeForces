@@ -9,7 +9,7 @@ int main()
     scanf("%d %d",&n,&m);
 
     if(n == 1) {
-      std :: cout << 0;
+      std :: cout << 0 << std :: endl;
       continue;
     }
     int answer = std :: min(2,n - 1) * m;
